@@ -31,9 +31,5 @@ export default {
     prerender: {
       entries: [],
     },
-    csp: {
-      mode: 'auto',
-      directives: { 'script-src': ['strict-dynamic'] },
-    },
   },
 };
